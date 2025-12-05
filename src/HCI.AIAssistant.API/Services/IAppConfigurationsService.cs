@@ -10,5 +10,6 @@ namespace HCI.AIAssistant.API.Services
         public string? KeyVaultName { get; set; }
         public string? SecretsPrefix { get; set; }
         public string? IoTDeviceName { get; set; }
+        string Instruction { get; set; }
     }
 }
